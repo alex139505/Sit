@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SITT</title>
+  <meta charset = "utf-8" />
+   <link rel="stylesheet"  href="css/REG.css">
+   <link rel="stylesheet"  href="css/registros.css">
+   <link rel="stylesheet" href="css/cal.css">
+  <link type="text/css" rel="stylesheet" href="css/fontello.css" />
+ <link rel="icon" type="image/png" href="img/logo-oficia.png">
+</head>
+
+<body>
+ <header>
+   <div class="menu">
+     <ul>
+      <li><a href="RegistrosCarrera.php"><span class="icon-reply"></span> Atras</a></li>     
+   </ul>
+</div>
+<div class="group"><br>  
+     <form action="RegistroCarrera.php" method="POST" >
+      <h2>Registro de Carreras</h2><br><br>
+       <input type="text" placeholder="Clave" name="clave" required > <br/>
+       <input type="text" placeholder="nombre_carrera" name="nombre_carrera" minlength="4" maxlength="40" pattern="[a-zA-Z]{1,15}" title="solo se aceptan letras" required> <br/>
+       <input type="text" placeholder="plan_estudios" name="plan_estudios" required minlength="4" maxlength="20"> <br/>
+       <input type="submit" value="Registrar" name="btnRegistrar">
+       <input type="reset" value="Limpiar"  name="btnLimpiar">
+       </form>
+      </div>
+      
+</body>
+</html>

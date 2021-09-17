@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SITT</title>
+<meta charset = "utf-8" />
+<link type="text/css" rel="stylesheet" href="css/fontello.css" />
+<link rel="stylesheet"  href="css/Consultas.css">
+<link rel="stylesheet"  href="css/registros.css">
+<link rel="icon" type="image/png" href="img/logo-oficia.png">
+</head>
+<header>
+<div class="menu">
+<ul>
+<li><a href="Buscar1.php"><span class="icon-reply"></span> Atras</a></li>
+</ul>
+<body>
+<form action="Resultados0.1.php" method="POST" >
+<div class="group"><br>
+<h2>Consultar</h2><br>
+<form >
+ 
+     lista de egresados de la Especialidad :<input type="text" name="nombre_especialidad" required> 
+        
+    <button type="submit" value="Buscar" name="btnBuscar1"><span class="icon-search">Buscar</button>
+	 
+</div>
+</form>
+</body>
+</html>
