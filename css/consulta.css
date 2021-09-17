@@ -1,0 +1,59 @@
+ body{
+  font: 11px Verdana, Geneva, Arial;
+background: url(../img/logo-oficia.jpg) no-repeat center top;  
+}
+table{
+    transform: translate(3.5%, 0%);
+ 
+
+}
+  th, td{
+    padding: 4px; 
+    
+
+  }
+ table tr{
+ border: 3px solid #ccc;
+
+  }
+   table th{
+    font-weight: bold ;
+    font-size: 12px;
+    text-align: center;
+background-color: #eee;
+  }
+  h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+}
+     button[type="submit"] {
+    transform: translate(30%, -8%);
+    border: none;
+    outline: none;
+    width: 7%;
+    height: 35px;
+    background: transparent;
+    background: #b80f22;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+
+ button[type="submit"]:hover {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+    }
+    input[type="search"] {
+  border: 
+  border-bottom: 1px solid #000;
+  background:
+  outline: none;
+  height: 30px;
+  width: 360px;
+  color: #fff;
+  font-size: 16px;
+
+}

@@ -1,0 +1,266 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;	
+}
+body {        
+font-family: sans-serif;  
+}
+nav {
+	background: #000;
+	height: 50px;
+}
+label.log{
+color: white;
+font-size: 23px;
+line-height: 50px;
+padding: 0 100px;
+
+
+}
+label.logi{
+color: white;
+font-size: 17px;
+line-height: 50px;
+
+
+
+}
+label.pie{
+color: white;
+font-size: 17px;
+line-height: 30px;
+padding: 0 50px;
+
+
+}
+/*body {        
+  margin: 0;
+  padding: 0;
+  background: url() no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+header {
+	width: 100%;
+	height: 50px;
+	background: #000;
+	box-sizing: border-box;
+	 border:0px solid #fff;
+  border-radius: 2px;
+
+}*/
+.menu ul{
+	margin: none;
+	list-style: none;
+	padding: none;
+	display: flex;
+	justify-content: flex;
+
+}
+ .menu 
+ ul, ol{
+	list-style: none;
+}
+.menu li a{
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 5px;
+	display: block;
+	font-size: 17px;
+
+}
+.menu > li{
+	float: left;
+}
+.menu li a:hover{
+	background-color: #434343;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 150px;
+}
+	.menu li:hover > ul {
+		display: block;
+
+}
+.sub-menu ul{
+margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex;
+}
+.menu ul{
+  margin: auto;
+  list-style: none;
+  padding: auto;
+  display: flex;
+  justify-content: flex;
+
+}
+ .menu 
+ ul, ol{
+  list-style: none;
+}
+.btn li a{
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 35px;
+  display: block;
+  font-size: 17px;
+
+}
+.btn > li{
+  float: left;
+}
+.btn li a:hover{
+  background-color: #000;
+}
+.btn li ul{
+  display: none;
+  position: absolute;
+  min-width: 150px;
+}
+  .btn li:hover > ul {
+    display: block;
+
+}
+.sub-menu ul{
+margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex;
+
+}
+h1, {
+	margin: 8;
+  padding: 0 -1 30px;
+  text-align: center;
+  font-size: 70px;
+
+}
+
+ 
+h3	{
+	margin: 8;
+  padding: 0 -1 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+transform: translate(0px, 6px);
+}
+h4{
+margin: 8;
+  padding: 0 -1 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+transform: translate(0px, 20px)	
+}
+.search img{
+width: 10%;
+height: 20px;
+position: left;
+}
+ button[type="button"] {
+    transform: translate(50%, -25%);
+    border: none;
+    outline: none;
+    width: 47%;
+    height: 38px;
+    background: transparent;
+    background: #b80f22;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+
+ button[type="button"]:hover {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+    }
+    .busc input{
+  width: 1 00%;
+  padding: 2px 0;
+  transform: translate(-0%, 267%);
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+  background: transparent;
+    }
+    section {
+    	background: #000;
+	    height: 90px;
+	    margin: none;
+	list-style: none;
+	padding: none;
+	
+    }
+
+/*.menu nav ul{
+	float: right;
+	margin-right: 70px;
+}
+ nav ul {
+	display: inline-block;
+	line-height: 30px;
+	margin: 1 15px;
+}
+.menu ul{
+	margin: none;
+	list-style: none;
+	padding: none;
+	display: flex;
+	justify-content: flex;
+	margin: none;
+	list-style: none;
+	padding: none;
+	display: flex;
+	justify-content: flex;
+}
+.menu 
+ ul, ol{
+	list-style: none;
+}
+.menu li a{
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 9px 5px;
+	display: block;
+	font-size: 17px;
+
+}
+.menu > li{
+	float: left;
+}
+.menu li a:hover{
+	background-color: #434343;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 150px;
+}
+	.menu li:hover > ul {
+		display: block;
+
+}
+.sub-menu ul{
+margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex;
+}
+

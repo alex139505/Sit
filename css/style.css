@@ -1,0 +1,53 @@
+
+ body{
+  font: 11px Verdana, Geneva, Arial;
+  }
+
+
+	/* 
+	Generic Styling, for Desktops/Laptops 
+	*/
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}
+	  h2 {
+ margin: 5;
+  font-weight: bold;
+  padding: 0  8px;
+  text-align: center;
+  font-size: 35px;
+}
+     button[type="submit"] {
+    transform: translate(50%, -25%);
+    border: none;
+    outline: none;
+    width: 7%;
+    height: 38px;
+    background: transparent;
+    background: #b80f22;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+
+ button[type="submit"]:hover {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+    }

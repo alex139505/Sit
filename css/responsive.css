@@ -1,0 +1,11 @@
+.uno {
+	width: 16%;
+	margin: auto;
+	overflow: hidden;
+}
+.dos{
+	width: 10%;
+	margin: auto;
+	overflow: hidden;
+	transform: translate(735% );
+}
